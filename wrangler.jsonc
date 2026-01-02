@@ -11,21 +11,23 @@
 		"enabled": true
 	},
 	"d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "prod-d1-tutorial",
-      "database_id": "0d05fd3c-e742-4468-86bc-ec2055da9a7e"
-    }
+		{
+			"binding": "DB",
+			"database_name": "prod-d1-tutorial",
+			"database_id": "0d05fd3c-e742-4468-86bc-ec2055da9a7e"
+		}
 	],
 	"kv_namespaces": [
-    {
-      "binding": "KV",
-      "id": "0e0d93d008a64c4694c1d6ca27413aa0"
-    }
-  	],
+		
+		{
+			"binding": "KV",
+			"id": "b8273b5fc3be429da36443c90bbbd4d5",
+			"remote": true
+		}
+	],
 	"ai": {
-    "binding": "AI"
-  	}
+		"binding": "AI"
+	}
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
